@@ -1,0 +1,39 @@
+.btn.assignsubmission-physical-btn {
+  display: block;
+  margin: 1rem auto;
+  max-width: 200px;
+}
+
+.assignsubmission-physical-submission {
+  margin: 2rem auto;
+}
+
+.assignsubmission-physical-submission > img {
+  display: block;
+}
+
+.assignsubmission-physical-submission > img,
+.assignsubmission-physical-block-center.assignsubmission-physical-vertical-breathe.assignsubmission-physical-buttons {
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 695px) {
+  div.assignsubmission-physical-block-center.assignsubmission-physical-vertical-breathe.assignsubmission-physical-buttons {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 696px) {
+  div.assignsubmission-physical-block-center.assignsubmission-physical-vertical-breathe.assignsubmission-physical-buttons {
+    display: flex;
+    max-width: 200px;
+  }
+}
+
+.assignsubmission-physical-vertical-breathe {
+  margin:32px 0 8px
+}
+
+.assignsubmission-physical-vertical-breathe-sm {
+  margin: 8px 0;
+}
