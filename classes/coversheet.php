@@ -505,8 +505,11 @@ class coversheet extends \pdf {
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="48" class="border-thin">
+                    <td colspan="24" class="border-thin">
                         <span class="font-small"><strong>$this->headingduedate:</strong> $this->duedate</span>
+                    </td>
+                    <td colspan="24" class="border-thick">
+                        <span class="font-small"><strong>Extension Date (if applicable): $this->extensiondate</strong></span>
                     </td>
                 </tr>
                 <tr>
